@@ -1,0 +1,68 @@
+:root {
+    --bs-main-color: linear-gradient(to bottom right, rgb(218, 192, 163) ,rgb(224, 189, 148),rgb(249, 187, 116));
+    --bg-bdy-color: linear-gradient(rgb(248, 240, 229));
+    --all-available-font: Arial, Helvetica, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif Verdana, Geneva, Tahoma, sans-serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(248, 240, 229);
+}
+
+.main-logo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.tab {
+    background: var(--bs-main-color);
+    width: 100%;
+    height: 4.6rem;
+    position: sticky;
+    top: 0;
+}
+
+.video-header {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(168, 200, 247),rgb(88, 126, 183),rgb(16,44,87));
+    background-size: 300% 300%;
+    animation: videobg 15s ease infinite;
+}
+@keyframes videobg {
+    and {
+        background-position: 0% 100%;   
+    }
+    after{
+        background-position: 200% 200%;   
+    }
+    before {
+        background-position: 0% 100%;   
+
+    }
+}
+
+.icon-hr {
+    margin-left:15px;
+    width: 350px;
+
+}
+.design-hr {
+    width: 100%;
+    margin: 20vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+
